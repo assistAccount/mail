@@ -15,6 +15,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String test(HttpServletRequest request){
-        return request.getHeader("User-Agent");
+        return request.getHeader("name");
     }
 }
