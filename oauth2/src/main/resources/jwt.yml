@@ -1,0 +1,10 @@
+
+
+spc:
+  jwt:
+    enable: true
+    secret: spc
+    expiration: 3600000
+    header: Authorization
+    userParamName: userId
+    pwdParamName: password
