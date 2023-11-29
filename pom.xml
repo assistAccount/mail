@@ -6,7 +6,7 @@
     <modules>
         <module>gateway-service</module>
         <module>testService</module>
-        <module>oauth2</module>
+<!--        <module>oauth2</module>-->
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
